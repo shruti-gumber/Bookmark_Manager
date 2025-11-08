@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Manager",
+  "version": "1.0",
+  "description": "Easily save, view, and organize your bookmarks with a clean, simple interface.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
